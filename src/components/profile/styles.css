@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+.profile-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Sen', sans-serif;
+}
+
+.box-profile {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-family: 'Sen', sans-serif;
+}
+
+.box-profile img {
+	height: 10em;
+	width: 10em;
+	border-radius: 50%;
+}
+
+.MuiTypography-body1 {
+	font-family: 'Sen', sans-serif;
+	font-size: 1.2em;
+	color: rgb(194, 72, 157);
+}

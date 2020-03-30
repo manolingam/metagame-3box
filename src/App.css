@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1em;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Sen', sans-serif;
+}
+
+#nav-button,
+a {
+	padding: 0.5em;
+	background: none;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 1em;
+	color: white;
+	background-color: rgb(194, 72, 157);
+	font-family: 'Sen', sans-serif;
+}
+
+a:hover,
+#nav-button:hover {
+	background-color: blueviolet;
+	color: white;
+	cursor: pointer;
+}
+
+#alert-dialog-description,
+.MuiTypography-h6 {
+	font-family: 'Sen', sans-serif;
+}
+
+#players-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(194, 72, 157);
+}
