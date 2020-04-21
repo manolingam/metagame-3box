@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/metagame-3box/static/css/main.420cd4e4.chunk.css",
+    "main.js": "/metagame-3box/static/js/main.b4accc56.chunk.js",
+    "main.js.map": "/metagame-3box/static/js/main.b4accc56.chunk.js.map",
+    "runtime-main.js": "/metagame-3box/static/js/runtime-main.3c5939a3.js",
+    "runtime-main.js.map": "/metagame-3box/static/js/runtime-main.3c5939a3.js.map",
+    "static/js/2.b9b255bd.chunk.js": "/metagame-3box/static/js/2.b9b255bd.chunk.js",
+    "static/js/2.b9b255bd.chunk.js.map": "/metagame-3box/static/js/2.b9b255bd.chunk.js.map",
+    "index.html": "/metagame-3box/index.html",
+    "precache-manifest.1e2dfff90aea9de948b7f0673d256b3d.js": "/metagame-3box/precache-manifest.1e2dfff90aea9de948b7f0673d256b3d.js",
+    "service-worker.js": "/metagame-3box/service-worker.js",
+    "static/css/main.420cd4e4.chunk.css.map": "/metagame-3box/static/css/main.420cd4e4.chunk.css.map",
+    "static/js/2.b9b255bd.chunk.js.LICENSE.txt": "/metagame-3box/static/js/2.b9b255bd.chunk.js.LICENSE.txt",
+    "static/media/metagame.png": "/metagame-3box/static/media/metagame.f3f97018.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c5939a3.js",
+    "static/js/2.b9b255bd.chunk.js",
+    "static/css/main.420cd4e4.chunk.css",
+    "static/js/main.b4accc56.chunk.js"
+  ]
+}
