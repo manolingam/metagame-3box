@@ -23,7 +23,7 @@ class App extends React.Component {
 			needToAWeb3Browser: false,
 			accounts: '',
 			open: false,
-			signedin: false
+			signedin: false,
 		};
 	}
 
@@ -48,10 +48,12 @@ class App extends React.Component {
 			this.setState({ open: true });
 		} else {
 			this.setState({ open: true });
-			const box = await Box.openBox(
-				this.state.accounts[0],
-				window.ethereum
-			);
+			const provider = await Box.get3idConnectProvider(); // recomended provider
+			const box = await Box.openBox(this.state.accounts[0], provider);
+			// const box = await Box.openBox(
+			// 	this.state.accounts[0],
+			// 	window.ethereum
+			// );
 			// const space = box.openSpace('distributed-app-store');
 			this.setState({ box, open: false, signedin: true });
 		}
@@ -78,7 +80,7 @@ class App extends React.Component {
 										this.setState({
 											signedin: false,
 											space: '',
-											box: ''
+											box: '',
 										});
 									}}
 								>
